@@ -1,0 +1,14 @@
+# Segredos nunca vão para o repositório
+.streamlit/secrets.toml
+.env
+kaggle.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Configuração local do editor
+.claude/

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <rect width="960" height="640" fill="#ffffff"/>
+  <text x="20" y="30" font-size="18" font-weight="bold" fill="#2d223a">Rascunho — Dashboard 1: Laboratório de distribuição e correlação</text>
+
+  <!-- Painel lateral -->
+  <rect x="20" y="50" width="200" height="570" fill="#f6efed" stroke="#999" stroke-dasharray="4"/>
+  <text x="32" y="75" font-weight="bold">Painel lateral (filtros)</text>
+  <rect x="32" y="90" width="176" height="40" fill="#fff" stroke="#999"/>
+  <text x="40" y="106" font-size="11">Variáveis quantitativas</text>
+  <text x="40" y="122" font-size="11" fill="#666">[Altura] [Envergadura] [Peso] ▾</text>
+  <rect x="32" y="140" width="176" height="30" fill="#fff" stroke="#999"/>
+  <text x="40" y="160" font-size="11">Variável do intervalo: Peso ▾</text>
+  <text x="32" y="190" font-size="11">Intervalo (slider)</text>
+  <line x1="40" y1="205" x2="200" y2="205" stroke="#2d223a" stroke-width="3"/>
+  <circle cx="60" cy="205" r="6" fill="#2d223a"/><circle cx="180" cy="205" r="6" fill="#2d223a"/>
+  <text x="32" y="235" font-size="11">Mínimo de lutas (slider)</text>
+  <line x1="40" y1="250" x2="200" y2="250" stroke="#2d223a" stroke-width="3"/>
+  <circle cx="40" cy="250" r="6" fill="#2d223a"/>
+  <rect x="32" y="270" width="176" height="30" fill="#fff" stroke="#999"/>
+  <text x="40" y="290" font-size="11">Base (Stance) ▾</text>
+  <text x="32" y="325" font-size="11">☐ Remover outliers (IQR)</text>
+
+  <!-- Abas -->
+  <rect x="240" y="50" width="200" height="28" fill="#2d223a"/>
+  <text x="252" y="69" fill="#fff">🔬 Laboratório</text>
+  <rect x="440" y="50" width="200" height="28" fill="#fff" stroke="#999"/>
+  <text x="452" y="69">🎯 KPIs</text>
+
+  <!-- Heatmap -->
+  <rect x="240" y="90" width="700" height="190" fill="#fff" stroke="#999"/>
+  <text x="252" y="110" font-weight="bold">Mapa de calor de correlação  (○ Spearman ○ Pearson ○ Kendall)</text>
+  <g>
+    <rect x="420" y="125" width="35" height="35" fill="#b2182b"/><rect x="455" y="125" width="35" height="35" fill="#ef8a62"/><rect x="490" y="125" width="35" height="35" fill="#fddbc7"/><rect x="525" y="125" width="35" height="35" fill="#d1e5f0"/>
+    <rect x="420" y="160" width="35" height="35" fill="#ef8a62"/><rect x="455" y="160" width="35" height="35" fill="#b2182b"/><rect x="490" y="160" width="35" height="35" fill="#f7f7f7"/><rect x="525" y="160" width="35" height="35" fill="#fddbc7"/>
+    <rect x="420" y="195" width="35" height="35" fill="#fddbc7"/><rect x="455" y="195" width="35" height="35" fill="#f7f7f7"/><rect x="490" y="195" width="35" height="35" fill="#b2182b"/><rect x="525" y="195" width="35" height="35" fill="#67a9cf"/>
+    <rect x="420" y="230" width="35" height="35" fill="#d1e5f0"/><rect x="455" y="230" width="35" height="35" fill="#fddbc7"/><rect x="490" y="230" width="35" height="35" fill="#67a9cf"/><rect x="525" y="230" width="35" height="35" fill="#b2182b"/>
+  </g>
+  <text x="600" y="190" fill="#666" font-size="11">valores de r anotados em cada célula</text>
+
+  <!-- Histogramas -->
+  <text x="240" y="305" font-weight="bold">Histogramas — um por variável selecionada (bins ajustáveis, separar por perfil)</text>
+  <g fill="#b8b8b8">
+    <rect x="240" y="315" width="340" height="140" fill="#fff" stroke="#999"/>
+    <rect x="270" y="410" width="25" height="35"/><rect x="300" y="380" width="25" height="65"/><rect x="330" y="345" width="25" height="100"/><rect x="360" y="365" width="25" height="80"/><rect x="390" y="400" width="25" height="45"/><rect x="420" y="425" width="25" height="20"/>
+    <rect x="600" y="315" width="340" height="140" fill="#fff" stroke="#999"/>
+    <rect x="630" y="430" width="25" height="15"/><rect x="660" y="400" width="25" height="45"/><rect x="690" y="350" width="25" height="95"/><rect x="720" y="340" width="25" height="105"/><rect x="750" y="390" width="25" height="55"/><rect x="780" y="420" width="25" height="25"/>
+  </g>
+  <line x1="345" y1="325" x2="345" y2="445" stroke="#d62728" stroke-dasharray="4"/>
+  <text x="460" y="335" font-size="11" fill="#666">média / mediana</text>
+
+  <!-- Tabela + dispersão -->
+  <rect x="240" y="470" width="340" height="150" fill="#fff" stroke="#999"/>
+  <text x="252" y="490" font-weight="bold">Tabela descritiva</text>
+  <text x="252" y="510" font-size="11" fill="#666">n · média · mediana · desvio · assimetria</text>
+  <text x="252" y="526" font-size="11" fill="#666">curtose · p-valor Shapiro-Wilk</text>
+  <rect x="600" y="470" width="340" height="150" fill="#fff" stroke="#999"/>
+  <text x="612" y="490" font-weight="bold">Dispersão X × Y (Spearman r no título)</text>
+  <g fill="#2d223a"><circle cx="650" cy="590" r="3"/><circle cx="680" cy="575" r="3"/><circle cx="710" cy="560" r="3"/><circle cx="740" cy="550" r="3"/><circle cx="770" cy="530" r="3"/><circle cx="800" cy="520" r="3"/></g>
+  <g fill="#e9d4d0" stroke="#999"><circle cx="665" cy="585" r="3"/><circle cx="725" cy="565" r="3"/><circle cx="785" cy="535" r="3"/></g>
+</svg>
