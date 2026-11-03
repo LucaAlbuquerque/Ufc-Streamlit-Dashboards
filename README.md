@@ -2,7 +2,7 @@
 
 Aplicação Streamlit construída a partir da minha EDA do dataset **UFC Data**, com dois dashboards em abas.
 
-**🔗 App publicado:** <!-- COLE AQUI o link do Streamlit Community Cloud, ex.: https://ufc-dashboards-luca.streamlit.app -->
+**🔗 App publicado:** https://ufc-dashboards-avd.streamlit.app/
 
 **Dataset:** [UFC Data — Kaggle (fatismajli)](https://www.kaggle.com/datasets/fatismajli/ufc-data) · 3.951 lutadores · altura, peso, envergadura, base e cartel (vitórias, derrotas, empates).
 
