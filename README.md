@@ -43,3 +43,7 @@ streamlit run app.py
 ## Autor
 
 Luca Albuquerque
+
+## Declaração de IA
+
+
