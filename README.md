@@ -46,4 +46,4 @@ Luca Albuquerque
 
 ## Declaração de IA
 
-
+https://github.com/LucaAlbuquerque/Ufc-Streamlit-Dashboards/blob/main/DECLARACAO_IA.docx.pdf
